@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036"></script>
+    <title>Услуги</title>
+</head>
+
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top__city">
+                        <img src="img/logo2.webp" alt="">
+                        <div class="text12 text10-tablet">
+                            Правительство Санкт-Петербурга <br>
+                Комитет имущественных отношений Санкт-петербурга
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="container">
+                    <div class="header-middle__inner">
+                        <a href="" class="header__logo">
+                            <img src="img/logo.webp" alt="">
+                        </a>
+                        <button class="burger">
+                            <img src="img/burger.svg" alt="" class="_view1">
+                            <img src="img/burger2.svg" alt="" class="_view2">
+                        </button>
+                        <div class="header-search">
+                            <input type="text" placeholder="Введите запрос, например, межевой план... ">
+                            <img src="img/search.svg" alt="" class="header-search__img">
+                        </div>
+                        <a href="" class="header-middle__phone">
+                            <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.9992 23.4003L24.0112 24.5378C15.1387 33.0311 -6.45211 11.4468 1.91122 2.54613L3.15706 1.4628C3.78736 0.852086 4.6329 0.514297 5.51051 0.522611C6.38811 0.530925 7.2271 0.884671 7.84572 1.50722C7.87931 1.53972 9.88456 4.1473 9.88456 4.1473C10.4802 4.77273 10.8119 5.60359 10.8109 6.46726C10.8099 7.33093 10.4762 8.16101 9.87914 8.78505L8.62247 10.3581C9.31672 12.0454 10.3375 13.5788 11.6263 14.8704C12.9151 16.1619 14.4463 17.1861 16.1321 17.884L17.7181 16.6219C18.342 16.0242 19.1721 15.6899 20.036 15.6885C20.9 15.6871 21.7312 16.0187 22.357 16.6143C22.357 16.6143 24.9646 18.6217 24.9981 18.6553C25.6267 19.2848 25.9799 20.138 25.9801 21.0276C25.9803 21.9172 25.6275 22.7705 24.9992 23.4003ZM23.5086 20.2337C23.5086 20.2337 20.9086 18.2382 20.8815 18.2057C20.6555 17.9898 20.355 17.8693 20.0424 17.8693C19.7299 17.8693 19.4294 17.9898 19.2034 18.2057C19.1752 18.235 16.9891 19.977 16.9891 19.977C16.8417 20.094 16.6664 20.1706 16.4804 20.1993C16.2945 20.228 16.1042 20.2077 15.9285 20.1406C13.7438 19.3279 11.7595 18.0549 10.1103 16.4077C8.46112 14.7605 7.18556 12.7779 6.37022 10.5942C6.29903 10.4166 6.27617 10.2233 6.30395 10.0339C6.33173 9.84459 6.40917 9.66599 6.52839 9.5163C6.52839 9.5163 8.26931 7.33122 8.29964 7.30197C8.52126 7.07874 8.64563 6.77694 8.64563 6.46238C8.64563 6.14783 8.52126 5.84603 8.29964 5.6228C8.26497 5.59138 6.27056 2.99788 6.27056 2.99788C6.04417 2.79462 5.74861 2.68565 5.44446 2.69331C5.14031 2.70096 4.8506 2.82466 4.63472 3.03905L3.38781 4.1278C-2.72219 11.4717 15.9881 29.1452 22.4252 23.0612L23.4132 21.9237C23.6457 21.7097 23.7856 21.4135 23.8034 21.098C23.8212 20.7826 23.7155 20.4725 23.5086 20.2337Z" fill="#0D0D0D" />
+                            </svg>
+                            <span class="h2">777-5-111</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header-bottom__inner">
+                        <nav class="nav">
+                            <a href="" class="nav__link">о компании</a>
+                            <a href="" class="nav__link">услуги</a>
+                            <a href="" class="nav__link">новости</a>
+                            <a href="" class="nav__link">вопросы</a>
+                            <a href="" class="nav__link">контакты</a>
+                        </nav>
+                        <button class="header-bottom__btn m-btn m-btn-green">
+                            <span>Услуги онлайн</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main class="content">
+
+            <div class="online-services m-section">
+                <div class="container">
+                    <div class="online-services__top">
+                        <div class="online-services__info">
+                            <div class="h1 h2-tablet">
+                                Онлайн сервис для физических лиц
+                            </div>
+                            <div class="h2 text16-tablet">
+                                Выберите услугу
+                            </div>
+                        </div>
+                        <button data-modal="helpModal" class="online-services__btn m-btn m-btn-small m-btn-black-outline">
+                            <span>помощь</span>
+                        </button>
+                    </div>
+
+                    <div class="work-way__grid grid3 grid2-tablet grid-mob">
+                        <div class="work-card">
+                            <div class="work-card__img m-backdrop">
+                                <img src="img/work7.webp" alt="">
+                            </div>
+                            <div class="work-card__content">
+                                <div class="h2">
+                                    Заказ технического паспорта
+                                </div>
+                                <div class="text _view1">
+                                    <p>Технический паспорт на квартиру содержит основные сведения о технических характеристиках квартиры и здания, в котором она расположена</p>
+                                </div>
+                                <div class="text _view2">
+                                    <ol>
+                                        <li>Удостоверение на гараж</li>
+                                        <li>Техническая инвентаризация</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-card__img m-backdrop">
+                                <img src="img/work8.webp" alt="">
+                            </div>
+                            <div class="work-card__content">
+                                <div class="h2">
+                                    Технический план
+                                </div>
+                                <div class="text _view1">
+                                    <p>Необходим для кадастрового учёта здания, сооружения, помещения, машино-места, объекта незавершенного строительства или единого недвижимого комплекса (или их части), а также для внесения в кадастр изменений в отношении таких объектов.</p>
+                                    <p>Может быть предоставлен в электронном виде с электронной цифровой подписью (ЭЦП): на диске или по эл.почте</p>
+                                </div>
+                                <div class="text _view2">
+                                    <ol>
+                                        <li>Удостоверение на гараж</li>
+                                        <li>Техническая инвентаризация</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-card__img m-backdrop">
+                                <img src="img/work9.webp" alt="">
+                            </div>
+                            <div class="work-card__content">
+                                <div class="h2">
+                                    Справка, содержащая сведения о наличии (отсутствии) права собственности на жилые строения, прошедшие учет до 03.04.1995 года (один правообладатель)
+                                </div>
+                                <div class="text _view1">
+                                    <p>Справка может быть предоставлена в электронном виде с электронной цифровой подписью (ЭЦП): на диске или по эл.почте</p>
+                                </div>
+                                <div class="text _view2">
+                                    <ol>
+                                        <li>Удостоверение на гараж</li>
+                                        <li>Техническая инвентаризация</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-card__img m-backdrop">
+                                <img src="img/work10.webp" alt="">
+                            </div>
+                            <div class="work-card__content">
+                                <div class="h2">
+                                    Записаться на прием по вопросам перепланировки
+                                </div>
+                                <div class="text _view1">
+                                    <p>ГУП «ГУИОН» выполняет все виды работ по проектированию и согласованию изменений в жилых и нежилых помещениях.</p>
+                                </div>
+                                <div class="text _view2">
+                                    <ol>
+                                        <li>Удостоверение на гараж</li>
+                                        <li>Техническая инвентаризация</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work-card">
+                            <div class="work-card__img m-backdrop">
+                                <img src="img/work11.webp" alt="">
+                            </div>
+                            <div class="work-card__content">
+                                <div class="h2">
+                                    Архивные сведения ПИБ
+                                </div>
+                                <div class="text _view1">
+                                    Копии учетно-технической документации и/или содержащихся в ней сведений
+                                </div>
+                                <div class="text _view2">
+                                    <ol>
+                                        <li>Удостоверение на гараж</li>
+                                        <li>Техническая инвентаризация</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="help">
+                            <form action="" class="help-form">
+                                <div class="h3">
+                                    Ответим на все вопросы и поможем с оформлением
+                                </div>
+                                <div class="help-form__fields">
+                                    <div class="fg">
+                                        <input type="text" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="fg">
+                                        <input type="tel" placeholder="Телефон">
+                                    </div>
+                                </div>
+                                <div class="help-form__nav">
+                                    <button class="help-form__btn m-btn m-btn-green">
+                                        <span>Отправить заявку</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal help-modal" id="helpModal">
+                <div class="modal__bg modal-bg _close-modal"></div>
+                <div class="modal__dialog">
+                    <button class="close-btn _close-modal">
+                        <img src="img/close.svg" alt="">
+                    </button>
+                    <div class="text">
+                        <h3>
+                            Для заказа услуги на онлайн-сервисе ГБУ «ГУИОН» необходимо
+                        </h3>
+                        <ul>
+                            <li>выбрать интересующую Вас услугу</li>
+                            <li>заполнить все поля, указанные на странице выбранной услуги</li>
+                            <li>
+                                выбрать способ оплаты
+                                <ul>
+                                    <li>для оплаты по квитанции: распечатать квитанцию и оплатить в любом банке</li>
+                                    <li>для онлайн-оплаты по карте: ввести данные плательщика на странице банка, на которую произойдёт переадресация, и нажать кнопку «оплатить»</li>
+                                </ul>
+                            </li>
+                            <li>на указанный Вами контактный номер будет выслано смс с подтверждением оплаты</li>
+                            <li>на указанный Вами контактный адрес электронной почты будет выслано письмо с информацией по совершённому Вами заказу</li>
+                            <li>в ближайшее время после оплаты с Вами свяжется сотрудник ГБУ «ГУИОН» для уточнения деталей заказа</li>
+                        </ul>
+                        <p>Внимание, с целью защиты данных плательщика, в т.ч. данных банковской карты, при оплате используется технология 3-D Secure: может потребоваться ввести код подтверждения, сгенерированный банком.</p>
+                        <p>Плательщик имеет право затребовать частичный возврат денежных средств в случаях, если услуга оказана не в полном объеме, нарушен срок оказания услуг, а также при отказе плательщика/ГБУ «ГУИОН» от оказания услуг на основании закона.</p>
+
+                        <h3>Для оформления возврата необходимо:</h3>
+                        <ol>
+                            <li>Написать заявление с указанием причины возврата и реквизитов банковской карты.</li>
+                            <li>Передать это заявление в подразделение, принявшее заявку в работу.</li>
+                        </ol>
+
+                        <p>
+                            После рассмотрения заявления на возможность возврата денежных средств и при положительном решении ГБУ «ГУИОН» информация о возврате передаётся в банк, который осуществит возврат указанных денежных средств на банковский счет, с которого была осуществлена оплата.
+                            Внимание, ГБУ «ГУИОН» предупреждает о том, что посещение Сайта, заказ конкретной услуги могут быть незаконными на территории страны, где Вы находитесь. Вы несете полную ответственность за невыполнение законов своей страны
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <a href="" class="footer__logo">
+                        <img src="img/logo.webp" alt="">
+                    </a>
+                    <div class="footer__info">
+                        <a href="" class="footer__phone">
+                            <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.9992 23.4003L24.0112 24.5378C15.1387 33.0311 -6.45211 11.4468 1.91122 2.54613L3.15706 1.4628C3.78736 0.852086 4.6329 0.514297 5.51051 0.522611C6.38811 0.530925 7.2271 0.884671 7.84572 1.50722C7.87931 1.53972 9.88456 4.1473 9.88456 4.1473C10.4802 4.77273 10.8119 5.60359 10.8109 6.46726C10.8099 7.33093 10.4762 8.16101 9.87914 8.78505L8.62247 10.3581C9.31672 12.0454 10.3375 13.5788 11.6263 14.8704C12.9151 16.1619 14.4463 17.1861 16.1321 17.884L17.7181 16.6219C18.342 16.0242 19.1721 15.6899 20.036 15.6885C20.9 15.6871 21.7312 16.0187 22.357 16.6143C22.357 16.6143 24.9646 18.6217 24.9981 18.6553C25.6267 19.2848 25.9799 20.138 25.9801 21.0276C25.9803 21.9172 25.6275 22.7705 24.9992 23.4003ZM23.5086 20.2337C23.5086 20.2337 20.9086 18.2382 20.8815 18.2057C20.6555 17.9898 20.355 17.8693 20.0424 17.8693C19.7299 17.8693 19.4294 17.9898 19.2034 18.2057C19.1752 18.235 16.9891 19.977 16.9891 19.977C16.8417 20.094 16.6664 20.1706 16.4804 20.1993C16.2945 20.228 16.1042 20.2077 15.9285 20.1406C13.7438 19.3279 11.7595 18.0549 10.1103 16.4077C8.46112 14.7605 7.18556 12.7779 6.37022 10.5942C6.29903 10.4166 6.27617 10.2233 6.30395 10.0339C6.33173 9.84459 6.40917 9.66599 6.52839 9.5163C6.52839 9.5163 8.26931 7.33122 8.29964 7.30197C8.52126 7.07874 8.64563 6.77694 8.64563 6.46238C8.64563 6.14783 8.52126 5.84603 8.29964 5.6228C8.26497 5.59138 6.27056 2.99788 6.27056 2.99788C6.04417 2.79462 5.74861 2.68565 5.44446 2.69331C5.14031 2.70096 4.8506 2.82466 4.63472 3.03905L3.38781 4.1278C-2.72219 11.4717 15.9881 29.1452 22.4252 23.0612L23.4132 21.9237C23.6457 21.7097 23.7856 21.4135 23.8034 21.098C23.8212 20.7826 23.7155 20.4725 23.5086 20.2337Z" fill="#0D0D0D" />
+                            </svg>
+                            <span class="text20 text16-tablet">777-5-111</span>
+                        </a>
+                        <div class="socials">
+                            <a href="" class="socials__item">
+                                <img src="img/mail2.svg" alt="">
+                            </a>
+                            <a href="" class="socials__item">
+                                <img src="img/vk.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer__middle">
+                    <div class="footer-nav">
+                        <div class="footer-nav__title h3 text16-tablet">
+                            <a href="">
+                                Физическим лицам
+                            </a>
+                        </div>
+                        <ul class="footer-nav__links">
+                            <li><a href="">Техническая инвентаризация</a></li>
+                            <li><a href="">Кадастровые работы</a></li>
+                            <li><a href="">Оценка</a></li>
+                            <li><a href="">Землеустройство</a></li>
+                            <li><a href="">Проектирование</a></li>
+                            <li><a href="">Прочие услуги</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <div class="footer-nav__title h3 text16-tablet">
+                            <a href="">
+                                Юридическим лицам
+                            </a>
+                        </div>
+                        <ul class="footer-nav__links">
+                            <li><a href="">Техническая инвентаризация</a></li>
+                            <li><a href="">Кадастровые работы</a></li>
+                            <li><a href="">Оценка</a></li>
+                            <li><a href="">Землеустройство</a></li>
+                            <li><a href="">Проектирование</a></li>
+                            <li><a href="">Прочие услуги</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <div class="footer-nav__title h3 text16-tablet">
+                            <a href="">
+                                О ГУИОН
+                            </a>
+                        </div>
+                        <ul class="footer-nav__links">
+                            <li><a href="">Партнеры и клиенты</a></li>
+                            <li><a href="">Структура</a></li>
+                            <li><a href="">Закупки</a></li>
+                            <li><a href="">Противодействие коррупции</a></li>
+                            <li><a href="">Справочная информация</a></li>
+                            <li><a href="">Лицензии</a></li>
+                            <li><a href="">Справочная политика</a></li>
+                            <li><a href="">Сотрудники ГБУ «ГУИОН», <br> являющиеся членами СРО</a></li>
+                            <li><a href="">Пользовательское соглашение</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <div class="footer-nav__title h3 text16-tablet">
+                            <a href="">
+                                Новости
+                            </a>
+                        </div>
+                        <div class="footer-nav__title h3 text16-tablet">
+                            <a href="">
+                                Клиентские центры (ПИБы)
+                            </a>
+                        </div>
+                        <div class="footer-nav__title h3 text16-tablet">
+                            <a href="">
+                                Департаменты
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__c text12">
+                        © «Городское управление инвентаризации и оценки недвижимости»
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

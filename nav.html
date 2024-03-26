@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036"></script>
+    <title>Главная</title>
+</head>
+
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 20px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="services.html" style="display: block; margin-bottom: 20px;">
+            Услуги
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+        <a href="partners.html" style="display: block; margin-bottom: 20px;">
+            Партнеры
+        </a>
+        <a href="licensies.html" style="display: block; margin-bottom: 20px;">
+            Лицензии
+        </a>
+        <a href="structure.html" style="display: block; margin-bottom: 20px;">
+            Структура
+        </a>
+        <a href="news.html" style="display: block; margin-bottom: 20px;">
+            Новости
+        </a>
+        <a href="news-item.html" style="display: block; margin-bottom: 20px;">
+            Новость
+        </a>
+        <a href="faq.html" style="display: block; margin-bottom: 20px;">
+            Вопросы
+        </a>
+        <a href="order.html" style="display: block; margin-bottom: 20px;">
+            ТЗаказ технического паспорта
+        </a>
+        <a href="text-page.html" style="display: block; margin-bottom: 20px;">
+            Текстовая страница
+        </a>
+        <a href="404.html" style="display: block; margin-bottom: 20px;">
+            404
+        </a>
+
+
+
+
+        <button data-modal="reqModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Отправить заявку
+        </button>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="modal" id="reqModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="h2 h3-tablet text-center">
+                Оставьте свой номер и наши операторы свяжутся с вами в ближайшее время
+            </div>
+            <button class="close-btn _close-modal">
+                <img src="img/close.svg" alt="">
+            </button>
+            <form class="req-form">
+                <div class="fg">
+                    <input type="text" placeholder="Имя">
+                </div>
+                <div class="fg">
+                    <input type="tel" placeholder="Телефон">
+                </div>
+                <div class="fg">
+                    <label>
+                        Тема обращения
+                    </label>
+                    <select>
+                        <option selected>Кадастровые работы и техническая инвентаризация. КЦ ПИБ Южное</option>
+                        <option>Кадастровые работы и техническая инвентаризация. КЦ ПИБ Южное 2</option>
+                        <option>Кадастровые работы и техническая инвентаризация. КЦ ПИБ Южное 3</option>
+                    </select>
+                </div>
+                <div class="req-form__nav">
+                    <button class="consult-form__btn m-btn m-btn-green">
+                        <span>Отправить заявку</span>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
